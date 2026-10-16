@@ -12,6 +12,12 @@
 *.env
 *.ipynb
 
+# Binary files
+*plenarprotokolle.jsonl
+*plenarprotokolle.cursor
+data/database.duckdb
+data/database.wal
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 

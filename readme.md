@@ -1,5 +1,3 @@
-## working with git
-
 ## conda environment
 - on first use run `conda create --file environment.yaml`
 - on every subsequent login run: 
@@ -24,3 +22,13 @@
 2) `git add -A`
 3) `git commit -m "informative message"`
 4) `git push`
+
+
+## programs
+All programs that fetch or transform data should be saved to src/
+- `src/raw`: python files that read raw data and save to database.duckdb (raw schema) - No cleaning or transform except for renaming columns and assigning types
+- `src/cur`: python files that read raw data from database.duckdb (raw schema) and clean it / transform it. save result to cur schema of database.duckdb
+### `raw/protokolle.py`
+creates `raw.protokolle` in database.duckdb. Contains meeting minutes of all Bundestag Sitzungen from 1949 to today.
+
+**To run:** `python src/raw/protokolle.py` from project root

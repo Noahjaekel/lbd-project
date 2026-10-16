@@ -15,6 +15,7 @@ dependencies:
   - comm=0.2.3=pyhe01879c_0
   - cpython=3.14.8=py314hd8ed1ab_102
   - debugpy=1.8.22=py314hb1fb86d_0
+  - duckdb=1.5.6=hff2d567_0
   - executing=2.3.0=pyhd8ed1ab_0
   - h2=4.4.1=pyhcf101f3_0
   - hpack=4.2.0=pyhd8ed1ab_0
@@ -65,6 +66,7 @@ dependencies:
   - python=3.14.8=h0ae1c2c_102_cp314
   - python-abi3=3.14=hab9af60_3
   - python-dateutil=2.9.0.post0=pyhe01879c_2
+  - python-duckdb=1.5.6=py314ha630e2e_0
   - python-gil=3.14.8=h4df99d1_102
   - python_abi=3.14=9_cp314
   - pyzmq=27.2.0=py312hdfb5542_2
