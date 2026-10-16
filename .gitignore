@@ -15,8 +15,9 @@
 # Binary files
 *plenarprotokolle.jsonl
 *plenarprotokolle.cursor
-data/database.duckdb
-data/database.wal
+# Ignore everything in data/ except the placeholder
+data/*
+!data/.gitkeep
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
